@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Nunito-Regular;
+    src: url(fonts/Nunito/static/Nunito-Regular.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Nunito-Bold;
+    src: url(fonts/Nunito/static/Nunito-Bold.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito/Nunito-VariableFont_wght.ttf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Lato;
+    src: url(fonts/Lato-Regular.ttf);
+    font-weight: 400;
+  }
+
+  

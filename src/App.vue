@@ -1,8 +1,12 @@
 <template>
   <div class="flex min-h-screen items-center justify-center">
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+    <HelloWorld msg="Hello Vue 3 + Vite" :cardData="cardData"/>
   </div>
+
+
 </template>
+
+
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 
@@ -45,4 +49,7 @@ const cardData = {
   aboutMe:
     "Reliable and with a strong motivation to grow professionally in the education sector, she knows how to take care of tasks assigned with commitment and resoluteness, always acting in compliance with the feedback and recommendations of colleagues and above with a view to continuous improve.",
 };
+
+
+
 </script>
